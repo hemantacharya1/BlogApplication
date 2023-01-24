@@ -6,13 +6,13 @@ import com.application.blog.dtos.UserDTO;
 
 	public interface UserService {
 
-	public UserDTO createUser(UserDTO user)throws UserException;
+	public UserDTO createUser(UserDTO user);
 	
-	public UserDTO updateUser(UserDTO dto, Integer userId) throws UserException;
+	public UserDTO updateUser(UserDTO dto, Integer userId);
 	
-	public UserDTO getUserById(Integer userId) throws UserException;
+	public UserDTO getUserById(Integer userId);
 	
-	public List<UserDTO> getAllUser() throws UserException;
+	public List<UserDTO> getAllUser();
 	
-	public UserDTO deleteUser(Integer userId) throws UserException;
+	public UserDTO deleteUser(Integer userId);
 }

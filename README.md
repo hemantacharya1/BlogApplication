@@ -26,14 +26,7 @@ A springboot RESTful API's project for blogging application
     * User can create multiple post.
     * User can create multiple comments
     * User can search for a post with category.    
-
-
-## Contributors
-* [@Hemant]()
-
-
-
-
+    
 
 ## Installation & Run
 
@@ -52,29 +45,7 @@ A springboot RESTful API's project for blogging application
 
 ## API Root Endpoint
 
-`https://localhost:8088/`
+`https://localhost:8088/
 
 `http://localhost:8088/swagger-ui/`
 
-
-## API Module Endpoints
-
-
-### User Module
-
-
-* `GET /customer/AllRegistration` : user can see all the registration
-* `POST /customer/Id` : User can add using Id class id
-* `PUT /customers/Member` : user can update member 
-* `DELETE/customers/Member` : user can delete member 
-........
-And Many more Methods We Implemented in our controller
-
-
-### Admin Module
-
-* `POST /admin/addInventory` : only admin can add the inventory details using unique key
-* `GET /admin/GetAllInventory` :only admin can access inventory details using unique key
-* `DELETE /admin/DeleteInventory` : only admin can delete the inventory details using unique key
-
-........
